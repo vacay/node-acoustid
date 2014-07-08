@@ -25,3 +25,10 @@ nodeAcoustid.submit('example.mp3', {
 }, function (err, res) {
   console.log(err, res);
 });
+
+nodeAcoustid.submisionStatus({
+  client: appKey,
+  id: '94489095'
+}, function (err, res) {
+  console.log(err, res);
+});
