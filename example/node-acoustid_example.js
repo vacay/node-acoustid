@@ -1,9 +1,17 @@
 'use strict';
 
-var nodeAcoustid = require('../lib/node-acoustid.js');
+var nodeAcoustid = require('../lib/node-acoustid.js'),
+  appKey = '8XaBELgH';
 
 nodeAcoustid.fingerprintLookup('example.mp3', {
-  client: '8XaBELgH'
+  client: appKey
+}, function (err, res) {
+  console.log(err, res);
+});
+
+nodeAcoustid.trackIdLookup({
+  client: appKey,
+  trackid: '9ff43b6a-4f16-427c-93c2-92307ca505e0'
 }, function (err, res) {
   console.log(err, res);
 });
