@@ -2,5 +2,8 @@
 
 var nodeAcoustid = require('../lib/node-acoustid.js');
 
-nodeAcoustid.awesome();
-// => awesome
+nodeAcoustid.fingerprintLookup('example.mp3', {
+  client: '8XaBELgH'
+}, function (err, res) {
+  console.log(err, res);
+});
