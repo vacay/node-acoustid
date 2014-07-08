@@ -32,3 +32,9 @@ nodeAcoustid.submisionStatus({
 }, function (err, res) {
   console.log(err, res);
 });
+
+nodeAcoustid.listByMbid({
+  mbid: '4e0d8649-1f89-44f3-91af-4c0dbee81f28'
+}, function (err, res) {
+  console.log(err, res);
+});
