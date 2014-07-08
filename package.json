@@ -1,0 +1,41 @@
+{
+  "name": "node-acoustid",
+  "version": "0.0.1",
+  "main": "lib/node-acoustid.js",
+  "description": "Get and submit music metadata from and to AcoustID Web Service",
+  "homepage": "https://github.com/alexu84/node-acoustid",
+  "bugs": "https://github.com/alexu84/node-acoustid/issues",
+  "author": {
+    "name": "Alexandru Marian Vasile",
+    "email": "codemaster64bit@gmai.com",
+    "url": "https://github.com/alexu84"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexu84/node-acoustid"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "node-acoustid",
+    "acoustid",
+    " music",
+    " audio",
+    " metadata",
+    " meta",
+    " mp3"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
